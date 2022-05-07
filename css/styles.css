@@ -17,17 +17,19 @@ body {
     box-shadow: 50px;
 }   
 #mandoIzquierdo{
-    height: 21.7em;
-    width: 7em;
+    height: 21.6em;
+    width: 6.9em;
     background-color: #0581df;
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-right: 0.1em;
     border-radius: 4em 0.3em 0.3em 4em;
     -webkit-box-shadow: 0.2em 0em 1em 0.2em black
 }
 #cajaInterior2 {
-    height: 21.7em;
-    width: 40em;
+    height: 21.6em;
+    width: 39.9em;
     border-radius: 1em 1em 0.3em 0.3em;
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
     background-color: rgb(76, 76, 77);
     display: flex;
     align-items: center;
@@ -35,9 +37,10 @@ body {
     -webkit-box-shadow: 0.1em 0em 1em 0.2em black
 }
 #mandoDerecho{
-    height: 21.7em;
-    width: 7em;
+    height: 21.6em;
+    width: 6.9em;
     background-color: red;
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-left: 0.1em;
     border-radius: 0.3em 4em 4em 0.3em;
     -webkit-box-shadow: 0.2em 0em 1em 0.2em black
@@ -65,12 +68,12 @@ body {
     flex-direction: row;
 }
 #botonPantalla1 {
-    height: 0.4em;
+    height: 0.3em;
     width: 1.2em;
     background-color: rgb(76, 76, 77);
+    border-top: 0.1em solid rgba(0, 0, 0, 0.233);
     border-radius: 0.5em;
     margin-left: 2em;
-    
 }
 #botonPantalla2 {
     height: 0.3em;
@@ -78,39 +81,41 @@ body {
     border-radius: 0.5em;
 }
 #botonPantalla3 {
-    height: 0.4em;
+    height: 0.3em;
     width: 1.2em;
+    border-top: 0.1em solid rgba(0, 0, 0, 0.233);
     background-color: rgb(76, 76, 77);
     border-radius: 0.5em;
 }
 #menos {
 
-    height: 0.4em;
+    height: 0.3em;
     width: 1.2em;
-    border-radius: 0.5em;
-    background-color: rgb(30, 30, 31);
+    border: 0.1 solid black;
+    border-radius: 0.1em;
+    background-color:  rgb(28, 28, 28);
     margin-top: 2em;
     margin-left: 5em;
 }
 #stickIzquierdo {
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.4em;
+    width: 3.4em;
     border-radius: 50em;
-    background-color: black;
+    border: 0.1em solid black;
+    background-color: rgb(53, 53, 53);
     margin-left: 2em;
     margin-top: 1.5em;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 #circiuloStickIzquierdo {
-    height: 2.7em;
-    width: 2.7em;
+    height: 2.8em;
+    width: 2.8em;
+    border: 0.1em solid black;
     border-radius: 50em;
     background: linear-gradient(black, rgb(84, 84, 84));
     -webkit-box-shadow: 0.1em 0em 1em 0.2em black
-
 }
 #botonArriba {
     height: 1.3em;
@@ -118,13 +123,13 @@ body {
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
     background-color: rgb(37, 37, 37);
-    margin-left: 3em;
-    margin-top: 2.5em;
+    margin-left: 2.7em;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
     display: flex;
     align-items: center;
     justify-content: center;
     -webkit-box-shadow: 0.1em 0em 1em 0em black
-
 }
 #botonesID{
     height: 1.5em;
@@ -138,12 +143,11 @@ body {
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
     background-color: rgb(37, 37, 37);
-    margin-left: 1.55em;
+    margin-left: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
     -webkit-box-shadow: 0.1em 0em 1em 0em black
-
 }
 #botonDerecha {
     height: 1.3em;
@@ -151,12 +155,11 @@ body {
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
     background-color: rgb(37, 37, 37);
-    margin-left: 1.4em;
+    margin-left: 1.8em;
     display: flex;
     align-items: center;
     justify-content: center;
     -webkit-box-shadow: 0.1em 0em 1em 0em black
-
 }
 #botonAbajo {
     height: 1.3em;
@@ -164,12 +167,12 @@ body {
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
     background-color: rgb(37, 37, 37);
-    margin-left: 3em;
+    margin-left: 2.7em;
+    margin-top: 0.4em;
     display: flex;
     align-items: center;
     justify-content: center;
     -webkit-box-shadow: 0.1em 0em 1em 0em black
-
 }
 #botonreset {
     height: 1.4em;
@@ -219,10 +222,168 @@ body {
 }
 #mas1 {
 
-    height: 0.4em;
+    height: 0.3em;
     width: 1.2em;
-    border-radius: 0.5em;
-    background-color: rgb(30, 30, 31);
+    border-radius: 0.1em;
+    background-color:  rgb(28, 28, 28);
+    border: 0.1em solid black;
     margin-top: 2em;
-    margin-left: 0.8em;
+    margin-left: 0.75em;
+}
+#mas2 {
+
+    height: 1.2em;
+    width: 0.3em;
+    border-radius: 0.1em;
+    border: 0.1em solid black;
+    background-color:  rgb(28, 28, 28);
+    margin-top: -0.95em;
+    margin-left: 1.2em;
+}
+#botonX {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    color: white;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 2.6em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+}
+#botonesYA{
+    height: 1.5em;
+    width: 7em;
+    display: flex;
+    flex-direction: row;
+}
+#botonY {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    color: white;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 0.95em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+}
+#botonA {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    color: white;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+}
+#botonB {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    color: white;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 2.6em;
+    margin-top: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+}
+#botonreset {
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 0.2em;
+    border: 0.1em solid black;
+    background: rgb(36, 36, 36);
+    margin-left: 4em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#stickDerecho {
+    height: 3.4em;
+    width: 3.4em;
+    border-radius: 50em;
+    border: 0.1em solid black;
+    background-color: rgb(53, 53, 53);
+    margin-left: 1.7em;
+    margin-top: 2.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#circuloStickDerecho {
+    height: 2.8em;
+    width: 2.8em;
+    border: 0.1em solid black;
+    border-radius: 50em;
+    background: linear-gradient(black, rgb(84, 84, 84));
+    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
+}
+#botonHome {
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50em;
+    border: 0.05em solid black;
+    background: rgb(168, 167, 167);
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circuloHome {
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50em;
+    background: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#iconoHome {
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50em;
+    background: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trianguloHome {
+    height: 0em;
+    width: 0em;
+    border-bottom: 0.3em solid rgb(0, 0, 0);
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+}
+#cuadradoHome {
+    height: 0.4em;
+    width: 0.6em;
+    background-color: black;
+    margin-left: 0.08em;
+    margin-bottom: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#puntoicono {
+    height: 0.25em;
+    width: 0.25em;
+    border-radius: 50em;
+    background: rgb(72, 72, 72);
+    margin-bottom: 0.1em;
 }
