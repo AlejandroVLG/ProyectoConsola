@@ -39,7 +39,7 @@ body {
 #mandoDerecho{
     height: 21.6em;
     width: 6.9em;
-    background-color: red;
+    background: rgba(255, 0, 0, 0.888);
     border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-left: 0.1em;
     border-radius: 0.3em 4em 4em 0.3em;
@@ -48,7 +48,7 @@ body {
 #marcoExterior {
     height: 20.5em;
     width: 38em;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     padding: 0em;
     background-color: black;
     display: flex;
@@ -58,7 +58,14 @@ body {
 #marcoInterior {
     height: 17em;
     width: 33em;
-    background: linear-gradient(rgb(28, 28, 28), rgba(141, 140, 140, 0.401));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pantalla{
+    height: 17em;
+    width: 33em;
+    background:url(/css/img/zelda.gif) ;
 }
 #botonesPantalla {
     height: 0.2em;
