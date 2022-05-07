@@ -19,9 +19,10 @@ body {
 #mandoIzquierdo{
     height: 21.7em;
     width: 7em;
-    background-color: blue;
-    border-radius: 5em 0.3em 0.3em 5em;
-    box-shadow: 5px;
+    background-color: #0581df;
+    margin-right: 0.1em;
+    border-radius: 4em 0.3em 0.3em 4em;
+    -webkit-box-shadow: 0.2em 0em 1em 0.2em black
 }
 #cajaInterior2 {
     height: 21.7em;
@@ -31,12 +32,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
 }
 #mandoDerecho{
     height: 21.7em;
     width: 7em;
     background-color: red;
-    border-radius: 0.3em 5em 5em 0.3em;
+    margin-left: 0.1em;
+    border-radius: 0.3em 4em 4em 0.3em;
+    -webkit-box-shadow: 0.2em 0em 1em 0.2em black
 }
 #marcoExterior {
     height: 20.5em;
@@ -66,11 +70,11 @@ body {
     background-color: rgb(76, 76, 77);
     border-radius: 0.5em;
     margin-left: 2em;
+    
 }
 #botonPantalla2 {
     height: 0.3em;
     width: 1em;
-    background-color: white;
     border-radius: 0.5em;
 }
 #botonPantalla3 {
@@ -98,12 +102,127 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 #circiuloStickIzquierdo {
     height: 2.7em;
     width: 2.7em;
     border-radius: 50em;
     background: linear-gradient(black, rgb(84, 84, 84));
-}
+    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
 
+}
+#botonArriba {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 3em;
+    margin-top: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+
+}
+#botonesID{
+    height: 1.5em;
+    width: 7em;
+    display: flex;
+    flex-direction: row;
+}
+#botonIzquierda {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 1.55em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+
+}
+#botonDerecha {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+
+}
+#botonAbajo {
+    height: 1.3em;
+    width: 1.3em;
+    border-radius: 50em;
+    border: 0.15em solid rgba(0, 0, 0, 0.304);
+    background-color: rgb(37, 37, 37);
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0.1em 0em 1em 0em black
+
+}
+#botonreset {
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 0.2em;
+    border: 0.1em solid black;
+    background: rgb(36, 36, 36);
+    margin-left: 4em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#circuloReset {
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50em;
+    background: black;
+}
+#trianguloArriba {
+    height: 0em;
+    width: 0em;
+    border-bottom: 0.5em solid rgb(0, 0, 0);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+}
+#trianguloAbajo {
+    height: 0em;
+    width: 0em;
+    border-top: 0.5em solid rgb(0, 0, 0);
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+}
+#trianguloIzquierda {
+    height: 0em;
+    width: 0em;
+    border-right: 0.5em solid rgb(0, 0, 0);
+    border-top: 0.3em solid transparent;
+    border-bottom: 0.3em solid transparent;
+}
+#trianguloDerecha {
+    height: 0em;
+    width: 0em;
+    border-left: 0.5em solid rgb(0, 0, 0);
+    border-top: 0.3em solid transparent;
+    border-bottom: 0.3em solid transparent;
+}
+#mas1 {
+
+    height: 0.4em;
+    width: 1.2em;
+    border-radius: 0.5em;
+    background-color: rgb(30, 30, 31);
+    margin-top: 2em;
+    margin-left: 0.8em;
+}
