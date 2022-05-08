@@ -12,7 +12,7 @@ body {
 
 }
 #consola{
-    height:26em;
+    height:26.2em;
     width: 54.6em;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ body {
     height: 21.6em;
     width: 6.9em;
     background: linear-gradient(rgb(28, 146, 250), rgb(53, 156, 245), rgb(15, 73, 123));
-    border: 0.1em solid rgba(0, 0, 0, 0.233);
+    border: 0.1em solid rgba(0, 0, 0, 0.42);
     margin-right: 0.1em;
     border-radius: 4em 0.3em 0.3em 4em;
     box-shadow: 0.2em 0em 1em 0.2em black; 
@@ -53,7 +53,7 @@ body {
     height: 21.6em;
     width: 6.9em;
     background: linear-gradient(red, rgb(255, 0, 0), rgb(152, 1, 1));
-    border: 0.1em solid rgba(0, 0, 0, 0.233);
+    border: 0.1em solid rgba(0, 0, 0, 0.436);
     margin-left: 0.1em;
     border-radius: 0.3em 4em 4em 0.3em;
     box-shadow: 0.2em 0em 1em 0.2em black;
