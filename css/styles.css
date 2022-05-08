@@ -98,7 +98,7 @@ body {
     height: 17em;
     width: 33em;
     border-radius: 0.1em 0.1em 0.1em 0.1em;
-    background:url(/img/zelda.gif);
+    background-image:url(/img/zelda.gif);
 }
 #botonesPantalla {
     height: 0.2em;
