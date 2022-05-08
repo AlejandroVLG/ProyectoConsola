@@ -115,6 +115,17 @@ body {
     border-radius: 0.5em;
     margin-left: 2em;
 }
+#botonPantalla1:hover {
+    height: 0.3em;
+    width: 1.2em;
+    background-color: rgb(30, 30, 30);
+    border-top: 0.1em solid rgba(0, 0, 0, 0.233);
+    margin-top: 0.1em;
+    border-radius: 0.5em;
+    margin-left: 2em;
+    transition-delay: 0.5s;
+    transition-duration: 0.3s;
+}
 #botonPantalla2 {
     height: 0.3em;
     width: 1em;
@@ -126,6 +137,16 @@ body {
     background-color:rgb(30, 30, 30);
     border-top: 0.1em solid rgba(0, 0, 0, 0.233);
     border-radius: 0.5em;
+}
+#botonPantalla3:hover {
+    height: 0.3em;
+    width: 1.2em;
+    background-color:rgb(30, 30, 30);
+    border-top: 0.1em solid rgba(0, 0, 0, 0.233);
+    margin-top: 0.1em;
+    border-radius: 0.5em;
+    transition-delay: 0.5s;
+    transition-duration: 0.3s;
 }
 #menos {
     height: 0.3em;
@@ -153,22 +174,21 @@ body {
     width: 2.8em;
     border: 0.1em solid black;
     border-radius: 50em;
-    background: linear-gradient(black, rgb(84, 84, 84));
-    box-shadow: 0.1em 0em 1em 0.2em black
+    background: linear-gradient(rgb(20, 20, 20), rgb(41, 41, 41), rgb(67, 67, 67));
+    box-shadow: 0.1em -0.1em 1em 0.2em black
 }
 #botonArriba {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(35, 35, 35));
     margin-left: 2.7em;
     margin-top: 2em;
     margin-bottom: 0.4em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonesID{
     height: 1.5em;
@@ -181,37 +201,34 @@ body {
     width: 1.3em;
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(35, 35, 35));
     margin-left: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonDerecha {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(35, 35, 35));
     margin-left: 1.8em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonAbajo {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(35, 35, 35));
     margin-left: 2.7em;
     margin-top: 0.4em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonreset {
     height: 1.4em;
@@ -287,16 +304,15 @@ body {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
-    color: white;
+    color: rgba(255, 255, 255, 0.627);
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
     margin-left: 2.6em;
     margin-top: 0.5em;
     margin-bottom: 0.2em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonesYA{
     height: 1.5em;
@@ -308,41 +324,38 @@ body {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
-    color: white;
+    color: rgba(255, 255, 255, 0.627);
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
     margin-left: 0.95em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonA {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
-    color: white;
+    color: rgba(255, 255, 255, 0.627);
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
     margin-left: 1.8em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonB {
     height: 1.3em;
     width: 1.3em;
     border-radius: 50em;
-    color: white;
+    color: rgba(255, 255, 255, 0.627);
     border: 0.15em solid rgba(0, 0, 0, 0.304);
-    background-color: rgb(37, 37, 37);
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
     margin-left: 2.6em;
     margin-top: 0.4em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonreset {
     height: 1.4em;
@@ -373,8 +386,8 @@ body {
     width: 2.8em;
     border: 0.1em solid black;
     border-radius: 50em;
-    background: linear-gradient(black, rgb(84, 84, 84));
-    box-shadow: 0.1em 0em 1em 0.2em black
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
+    box-shadow: 0.1em 0.1em 1em 0.2em black
 }
 #botonHome {
     height: 1.5em;
