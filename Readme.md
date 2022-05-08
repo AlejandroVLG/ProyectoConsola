@@ -5,7 +5,7 @@
 ##PROYECTO CONSOLA
 <br>
 <p align="center">
-<img src="/img/Consola.webp" height=300>
+<img src="/img/Capturaconsola.webp" height=300>
 <br><br>
 
 Primer proyecto del curso fullstack Developer en Geeks Hubs Academy.
