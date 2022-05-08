@@ -8,9 +8,22 @@ body {
     align-items: center;
     justify-content: center;
 }
-#consola {
-    height: 22em;
-    width: 54em;
+/*
+#consola{
+    height: 22.3em;
+    width: 55em;
+    border-radius: 4.2em 4.2em 4.2em 4.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+*/
+#consola1 {
+    height: 21.7em;
+    width: 54.6em;
+    border-radius: 4em 4em 4em 4em;
+    margin-left: 0.2em;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -19,38 +32,57 @@ body {
 #mandoIzquierdo{
     height: 21.6em;
     width: 6.9em;
-    background-color: #0581df;
+    background: linear-gradient(rgb(28, 146, 250), rgb(53, 156, 245), rgb(15, 73, 123));
     border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-right: 0.1em;
     border-radius: 4em 0.3em 0.3em 4em;
-    -webkit-box-shadow: 0.2em 0em 1em 0.2em black
+    box-shadow: 0.2em 0em 1em 0.2em black
+}
+#mandoIzquierdo:hover {
+    height: 21.6em;
+    width: 6.9em;
+    background: linear-gradient(rgb(28, 146, 250), rgb(53, 156, 245), rgb(15, 73, 123));
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
+    margin-bottom: 3em;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+}
+#mandoDerecho{
+    height: 21.6em;
+    width: 6.9em;
+    background: linear-gradient(red, rgba(255, 0, 0, 0.839), rgb(152, 1, 1));
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
+    margin-left: 0.1em;
+    border-radius: 0.3em 4em 4em 0.3em;
+    box-shadow: 0.2em 0em 1em 0.2em black
+}
+#mandoDerecho:hover {
+    height: 21.6em;
+    width: 6.9em;
+    background: linear-gradient(red, rgba(255, 0, 0, 0.839), rgb(152, 1, 1));
+    border: 0.1em solid rgba(0, 0, 0, 0.233);
+    margin-bottom: 3em;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
 }
 #cajaInterior2 {
     height: 21.6em;
     width: 39.9em;
     border-radius: 1em 1em 0.3em 0.3em;
     border: 0.1em solid rgba(0, 0, 0, 0.233);
-    background-color: rgb(76, 76, 77);
+    background: linear-gradient(rgb(30, 30, 30), rgb(83, 83, 83), rgb(43, 43, 43));
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
-}
-#mandoDerecho{
-    height: 21.6em;
-    width: 6.9em;
-    background: rgba(255, 0, 0, 0.888);
-    border: 0.1em solid rgba(0, 0, 0, 0.233);
-    margin-left: 0.1em;
-    border-radius: 0.3em 4em 4em 0.3em;
-    -webkit-box-shadow: 0.2em 0em 1em 0.2em black
+    box-shadow: 0.1em 0em 1em 0.2em black
 }
 #marcoExterior {
     height: 20.5em;
     width: 38em;
     border-radius: 0.3em;
     padding: 0em;
-    background-color: black;
+    border: 0.01em solid rgba(255, 255, 255, 0.322);
+    background: linear-gradient(black, grey, black);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,10 +94,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-#pantalla{
+#pantalla {
     height: 17em;
     width: 33em;
-    background:url(/css/img/zelda.gif) ;
+    border-radius: 0.1em 0.1em 0.1em 0.1em;
+    background:url(/css/img/zelda.gif);
 }
 #botonesPantalla {
     height: 0.2em;
@@ -77,7 +110,7 @@ body {
 #botonPantalla1 {
     height: 0.3em;
     width: 1.2em;
-    background-color: rgb(76, 76, 77);
+    background-color: rgb(30, 30, 30);
     border-top: 0.1em solid rgba(0, 0, 0, 0.233);
     border-radius: 0.5em;
     margin-left: 2em;
@@ -90,18 +123,17 @@ body {
 #botonPantalla3 {
     height: 0.3em;
     width: 1.2em;
+    background-color:rgb(30, 30, 30);
     border-top: 0.1em solid rgba(0, 0, 0, 0.233);
-    background-color: rgb(76, 76, 77);
     border-radius: 0.5em;
 }
 #menos {
-
     height: 0.3em;
     width: 1.2em;
+    background-color:  rgb(28, 28, 28);
     border: 0.1 solid black;
     border-radius: 0.1em;
-    background-color:  rgb(28, 28, 28);
-    margin-top: 2em;
+    margin-top: 1.7em;
     margin-left: 5em;
 }
 #stickIzquierdo {
@@ -122,7 +154,7 @@ body {
     border: 0.1em solid black;
     border-radius: 50em;
     background: linear-gradient(black, rgb(84, 84, 84));
-    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
+    box-shadow: 0.1em 0em 1em 0.2em black
 }
 #botonArriba {
     height: 1.3em;
@@ -136,7 +168,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonesID{
     height: 1.5em;
@@ -154,7 +186,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonDerecha {
     height: 1.3em;
@@ -166,7 +198,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonAbajo {
     height: 1.3em;
@@ -179,7 +211,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonreset {
     height: 1.4em;
@@ -202,6 +234,7 @@ body {
 #trianguloArriba {
     height: 0em;
     width: 0em;
+    margin-bottom: 0.1em;
     border-bottom: 0.5em solid rgb(0, 0, 0);
     border-left: 0.3em solid transparent;
     border-right: 0.3em solid transparent;
@@ -209,6 +242,7 @@ body {
 #trianguloAbajo {
     height: 0em;
     width: 0em;
+    margin-top: 0.1em;
     border-top: 0.5em solid rgb(0, 0, 0);
     border-left: 0.3em solid transparent;
     border-right: 0.3em solid transparent;
@@ -216,6 +250,7 @@ body {
 #trianguloIzquierda {
     height: 0em;
     width: 0em;
+    margin-right: 0.1em;
     border-right: 0.5em solid rgb(0, 0, 0);
     border-top: 0.3em solid transparent;
     border-bottom: 0.3em solid transparent;
@@ -223,6 +258,7 @@ body {
 #trianguloDerecha {
     height: 0em;
     width: 0em;
+    margin-left: 0.1em;
     border-left: 0.5em solid rgb(0, 0, 0);
     border-top: 0.3em solid transparent;
     border-bottom: 0.3em solid transparent;
@@ -260,7 +296,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonesYA{
     height: 1.5em;
@@ -279,7 +315,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonA {
     height: 1.3em;
@@ -292,7 +328,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonB {
     height: 1.3em;
@@ -306,7 +342,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-box-shadow: 0.1em 0em 1em 0em black
+    box-shadow: 0.1em 0em 1em 0em black
 }
 #botonreset {
     height: 1.4em;
@@ -338,7 +374,7 @@ body {
     border: 0.1em solid black;
     border-radius: 50em;
     background: linear-gradient(black, rgb(84, 84, 84));
-    -webkit-box-shadow: 0.1em 0em 1em 0.2em black
+    box-shadow: 0.1em 0em 1em 0.2em black
 }
 #botonHome {
     height: 1.5em;
@@ -394,3 +430,14 @@ body {
     background: rgb(72, 72, 72);
     margin-bottom: 0.1em;
 }
+#gatilloL {
+    height: 0.2em;
+    width: 4.75em;
+    display: flex;
+    flex-direction: row;
+    margin-left: -0.5em;
+    margin-top: 0.3em;
+    transform: rotate(325deg);
+    border-radius: 3em 0em 0em 0.2em;
+}
+
