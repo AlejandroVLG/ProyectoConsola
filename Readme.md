@@ -5,11 +5,12 @@
 ##PROYECTO CONSOLA
 <br>
 <p align="center">
-<img src="/img/Capturaconsola.png" height=200>
+<img src="/img/ConsolaNSW.png" height=200>
 <br><br>
 
 Primer proyecto del curso fullstack Developer en Geeks Hubs Academy.
-<BR>
+<br>
 ####LENGUAJES UTILIZADOS
+
 
 El proyecto se ha realizado utilizando únicamente HTML y CSS3.

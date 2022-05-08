@@ -1,24 +1,34 @@
 
 body {
     height: 100vh;
+    width: 100%;
     margin: 0em;
     padding: 0em;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background:linear-gradient(rgb(6, 106, 220), rgb(2, 44, 76), rgb(6, 101, 38))
+
 }
-/*
 #consola{
-    height: 22.3em;
-    width: 55em;
-    border-radius: 4.2em 4.2em 4.2em 4.2em;
+    height:26em;
+    width: 54.6em;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
-*/
+#gatillos {
+    height: 4.3em;
+    width: 54.6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -3.4em;
+    z-index: 0;
+}
 #consola1 {
     height: 21.7em;
     width: 54.6em;
@@ -36,34 +46,18 @@ body {
     border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-right: 0.1em;
     border-radius: 4em 0.3em 0.3em 4em;
-    box-shadow: 0.2em 0em 1em 0.2em black
-}
-#mandoIzquierdo:hover {
-    height: 21.6em;
-    width: 6.9em;
-    background: linear-gradient(rgb(28, 146, 250), rgb(53, 156, 245), rgb(15, 73, 123));
-    border: 0.1em solid rgba(0, 0, 0, 0.233);
-    margin-bottom: 3em;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
+    box-shadow: 0.2em 0em 1em 0.2em black; 
+    z-index: 1;   
 }
 #mandoDerecho{
     height: 21.6em;
     width: 6.9em;
-    background: linear-gradient(red, rgba(255, 0, 0, 0.839), rgb(152, 1, 1));
+    background: linear-gradient(red, rgb(255, 0, 0), rgb(152, 1, 1));
     border: 0.1em solid rgba(0, 0, 0, 0.233);
     margin-left: 0.1em;
     border-radius: 0.3em 4em 4em 0.3em;
-    box-shadow: 0.2em 0em 1em 0.2em black
-}
-#mandoDerecho:hover {
-    height: 21.6em;
-    width: 6.9em;
-    background: linear-gradient(red, rgba(255, 0, 0, 0.839), rgb(152, 1, 1));
-    border: 0.1em solid rgba(0, 0, 0, 0.233);
-    margin-bottom: 3em;
-    transition-delay: 0.5s;
-    transition-duration: 1s;
+    box-shadow: 0.2em 0em 1em 0.2em black;
+    z-index: 1;
 }
 #cajaInterior2 {
     height: 21.6em;
@@ -74,7 +68,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.1em 0em 1em 0.2em black
+    box-shadow: 0.1em 0em 1em 0.2em black;
 }
 #marcoExterior {
     height: 20.5em;
@@ -175,7 +169,17 @@ body {
     border: 0.1em solid black;
     border-radius: 50em;
     background: linear-gradient(rgb(20, 20, 20), rgb(41, 41, 41), rgb(67, 67, 67));
-    box-shadow: 0.1em -0.1em 1em 0.2em black
+    box-shadow: 0.1em -0.1em 1em 0.2em black;
+}
+#circiuloStickIzquierdo:hover {
+    height: 2.8em;
+    width: 2.8em;
+    background: linear-gradient(rgb(20, 20, 20), rgb(41, 41, 41), rgb(67, 67, 67));
+    border: 0.1em solid black;
+    border-radius: 50em;
+    margin-bottom: 1em;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
 }
 #botonArriba {
     height: 1.3em;
@@ -281,7 +285,6 @@ body {
     border-bottom: 0.3em solid transparent;
 }
 #mas1 {
-
     height: 0.3em;
     width: 1.2em;
     border-radius: 0.1em;
@@ -291,7 +294,6 @@ body {
     margin-left: 0.75em;
 }
 #mas2 {
-
     height: 1.2em;
     width: 0.3em;
     border-radius: 0.1em;
@@ -387,7 +389,19 @@ body {
     border: 0.1em solid black;
     border-radius: 50em;
     background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
-    box-shadow: 0.1em 0.1em 1em 0.2em black
+    box-shadow: 0.1em 0.1em 1em 0.2em black;
+}
+#circuloStickDerecho:hover {
+    height: 2.8em;
+    width: 2.8em;
+    background: linear-gradient(rgb(78, 77, 77), rgb(48, 48, 48), rgb(23, 23, 23));
+    border: 0.1em solid black;
+    border-radius: 50em;
+    margin-top: 1em;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    box-shadow: 0.1em 0.1em 1em 0.2em black;
+
 }
 #botonHome {
     height: 1.5em;
@@ -443,14 +457,24 @@ body {
     background: rgb(72, 72, 72);
     margin-bottom: 0.1em;
 }
-#gatilloL {
-    height: 0.2em;
-    width: 4.75em;
-    display: flex;
-    flex-direction: row;
-    margin-left: -0.5em;
-    margin-top: 0.3em;
-    transform: rotate(325deg);
-    border-radius: 3em 0em 0em 0.2em;
+#botonL1 {
+    height: 3.3em;
+    width: 5.7em;
+    margin-left: 0.1em;
+    margin-right: 42.3em;
+    border-radius: 6em 0.5em 0em 0.2em;
+    background-color: rgb(117, 117, 117);
+    border: 0.05em solid black;
+    box-shadow: 0.1em 0.1em 1em 0.2em black;
 }
+#botonR1 {
+    height: 3.3em;
+    width: 5.7em;
+    border-radius: 0em 6em 0em 0.2em;
+    background-color: rgb(117, 117, 117);
+    border: 0.05em solid black;
+    margin-left: 0em;
+    box-shadow: 0.1em 0.1em 1em 0.2em black;
+}
+
 
